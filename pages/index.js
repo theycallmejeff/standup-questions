@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import { questions } from '../public/questions';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const [question, setQuestion] = useState('');
@@ -12,18 +13,18 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>Random Question Generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>Random Question Generator</h1>
-        <button onClick={getRandomQuestion}>Get Random Question</button>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Random Question Generator</h1>
+        <button className={styles.button} onClick={getRandomQuestion}>Get Random Question</button>
         {question && (
-          <div>
-            <h2>{question}</h2>
+          <div className={styles.questionContainer}>
+            <h2 className={styles.question}>{question}</h2>
           </div>
         )}
       </main>
