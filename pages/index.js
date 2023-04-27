@@ -15,12 +15,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Random Question Generator</title>
+        <title>MI Standup Questions Generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Random Question Generator</h1>
+        <h1 className={styles.title}>Standup Questions Generator</h1>
         <button className={styles.button} onClick={getRandomQuestion}>Get Random Question</button>
         {question && (
           <div className={styles.questionContainer}>
