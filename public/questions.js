@@ -8,5 +8,7 @@ export const questions = [
     "What is the comfort food of your family?",
     "What's something you read recently that you'd like to share?",
     "What's something you're grateful for today?",
+    "What is something you learned recently?",
+    "Who is someone you appreciated recently?",
   ];
   
