@@ -10,5 +10,6 @@ export const questions = [
     "What's something you're grateful for today?",
     "What is something you learned recently?",
     "Who is someone you appreciated recently?",
+    "What invention would make your work life easier? Wrong answers only."
   ];
   
