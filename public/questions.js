@@ -132,6 +132,10 @@ export const questions = [
     "If you could stay an age all your life, what age would you choose?",
     "What's something that you will never understand?",
     "What's one area in which you could use a mentor to improve?",
-    "How do you decide what you will focus on in a given day?"
+    "How do you decide what you will focus on in a given day?",
+    "If you lost all of your possessions but one, what would you want it to be?",
+    "What's the story behind one of your scars?",
+    "What's the last book you gave up on and stopped reading?",
+    "In your group of friends, what role do you play?"
   ];
   
